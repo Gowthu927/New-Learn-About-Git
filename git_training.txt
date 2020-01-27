@@ -44,3 +44,19 @@ files in staging area alone can be committed
 git add filename.extn
 
 -----------------------------------------------------------------------
+
+to transfer the file we need the remote system
+
+git remote -v  --> this cmnt is used to check the remote path
+
+if no remote path is created we have to create the remote path using 
+
+git remote add origin pathlink
+
+------------------------------------------------------------------------
+
+to pull the chnages from github to local
+
+git pull origin master
+
+------------------------------------------------------------------------
