@@ -34,3 +34,13 @@ origin    -  we are processing push request in origin file
 master    -  in origin master file we are processing the request
 
 -----------------------------------------------------------------------
+
+If we add any new file then "git commit -a" will not work we have to move the particular file to staging area to commit the changes.
+
+add commetn used to add the files in staging area
+
+files in staging area alone can be committed
+
+git add filename.extn
+
+-----------------------------------------------------------------------
