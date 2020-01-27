@@ -1,0 +1,36 @@
+to check the config
+
+git config --list
+
+-----------------------------------------------------------------------
+
+To clone the github repo in local :
+
+git clone url.git
+
+------------------------------------------------------------------------
+
+git commit -a -m "message"
+
+-> -a ---commit all the changes
+-> -m ---add a message with the commin
+-> git the message in quotes
+
+-----------------------------------------------------------------------
+
+to get the log
+
+git log
+
+-----------------------------------------------------------------------
+
+to update the changes in git(local) to github(server)
+
+git push origin master
+
+push      -  as we push the data from local to server
+pull      -  to pull the data from server to local
+origin    -  we are processing push request in origin file
+master    -  in origin master file we are processing the request
+
+-----------------------------------------------------------------------
